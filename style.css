@@ -1,0 +1,62 @@
+.row{
+    margin: 0;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+a{
+    color: initial;
+}
+a:hover{
+    text-decoration: none;
+    color: initial;
+    transform: scale(1.1);
+    font-weight: bolder;
+}
+
+.card{
+    background-color: #fccf46;
+    border: none;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08), 
+                0 2px 2px rgba(0,0,0,0.12), 
+                0 4px 4px rgba(0,0,0,0.16), 
+                0 8px 8px rgba(0,0,0,0.20);
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transform: rotate(0.7deg);
+    transition-duration: 500ms;    
+}
+
+.card-body:hover{
+    background-color: #ffca2c;
+    transform: rotate(-0.8deg);
+    border-radius: 75%;
+    transition-duration: 500ms;
+}
+
+.wall{
+    background-image: url('assets/img/sunrise.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#photoCard{
+    border: none;
+    width: 10%;
+    background-color: unset;
+}
+
+#photo{
+    border-radius: 10px;
+}
+
+footer{
+    background-color: black;
+    color: #fac423;
+}
+
